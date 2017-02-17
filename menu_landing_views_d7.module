@@ -18,12 +18,12 @@ function menu_landing_views_d7_views_api() {
 /**
  * Implements hook_block_info_alter().
  */
-function menu_landing_views_d7_block_info_alter(&$blocks, $theme, $code_blocks) {
-//  if ($theme == 'mytheme') {
-//    $blocks['views']['block_1']['status'] = TRUE;
-//    $blocks['views']['block_1']['region'] = 'content';
-//    $blocks['calendar_widget_d7']['calendar_widget_d7_block_1']['status'] = TRUE;
-//    $blocks['calendar_widget_d7']['calendar_widget_d7_block_1']['region'] = 'content';
-//  }
-}
+//function menu_landing_views_d7_block_info_alter(&$blocks, $theme, $code_blocks) {
+////  if ($theme == 'mytheme') {
+////    $blocks['views']['block_1']['status'] = TRUE;
+////    $blocks['views']['block_1']['region'] = 'content';
+////    $blocks['calendar_widget_d7']['calendar_widget_d7_block_1']['status'] = TRUE;
+////    $blocks['calendar_widget_d7']['calendar_widget_d7_block_1']['region'] = 'content';
+////  }
+//}
 
