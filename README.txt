@@ -6,6 +6,8 @@ Download the [module]
 
 To Use
 ------------------------
+There is a dependency on the views_menu_children_filter module found at https://drupal.org/project/views_menu_children_filter
+
 Enable the two modules.
 
 To change your menu from using top level links (that aren't content
