@@ -1,11 +1,23 @@
-Installation Instructions
--------------------------------
+#Menu Landing Page Views
+
+## What This Module Does
+This module helps you generate landing pages based on your existing menu and page structure. 
+This is especially helpful for websites trying to convert form dropdown menus to a flat menu 
+linking to landing pages of it's other pages. This module can help you make that transition in a 
+matter of minutes, rather than recreating your content neccessarily. Of course, it can also be used by new websites 
+that are setting up the same type of landing pages.
+
+Note: While this module helps you convert to the new menu system, we still recommend that you periodically update your content and make sure it is up to date and well organized.
+
+It uses the main menu by default (but this can be changed in the view) and generates a View block which
+detects if the current page is in the main menu and if it has child pages. If it does, it puts those child pages into cards and displays them in byu-card format. (See this module for more information: https://github.com/byuweb/views_card_d7)
+
+## Installation Instructions
 Git clone or download this module.
 
 Download the [module]
 
-To Use
-------------------------
+## To Use
 There is a dependency on the views_menu_children_filter module found at https://drupal.org/project/views_menu_children_filter
 
 Enable the two modules.
@@ -24,8 +36,7 @@ You don't need to limit it to certain pages neccessarily, as it will only displa
 
 If you need landing pages for other menus other than the main menu, you can edit or clone this view.
 
-More than 2 levels
-----------------------------------
+## More than 2 levels
 This module will display on any content page that has menu children, or links below it in the menu.
 This means that even lower level pages can have these tiles displayed for their children links.
 
@@ -43,8 +54,7 @@ Lunch
 The tiles will display showing links on the pages Breakfast, Lunch, Entrees, and Appetizers.
 
 
-Links that AREN'T to actual content
---------------------------------------
+## Links that AREN'T to actual content
 This view only works for content links.
 
 Here are some work around ideas:
