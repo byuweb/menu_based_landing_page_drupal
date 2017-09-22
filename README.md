@@ -17,20 +17,29 @@ Git clone or download this module.
 
 Download the [module]
 
+Download all dependencies. (Drupal tells you which modules, or see the section below.)
+
 ## To Use
-There is a dependency on the views_menu_children_filter module found at https://drupal.org/project/views_menu_children_filter
+### 1. Get Dependencies & Enable
+There are several dependencies for this module:
+https://drupal.org/project/views_menu_children_filter
+https://www.drupal.org/project/menu_node
+https://www.drupal.org/project/menu_node_views
 
-Enable the two modules.
+Enable these modules and Menu Based Landing Views D7.
 
+### 2. Adjust your current menu slightly
 To change your menu from using top level links (that aren't content
 but that open up to more links), you will need to make a few slight changes:
 
 Create a simple page (a node) for each of the top level links.
 Add them to the menu in the place of those pre-existing non-link menu links. You can delete those old links.
 
+### 3. Check the generated View
 Go to views. You will find a new view that has been created - Menu Based Landing Pages.
 You may edit this if you would like.
 
+### 4. Place the block in your region.
 Go to structure > blocks. You will see a Menu Based Landing Page block. Display it in your content region.
 You don't need to limit it to certain pages neccessarily, as it will only display on pages that have menu children in the main menu.
 
@@ -53,7 +62,10 @@ Lunch
 
 The tiles will display showing links on the pages Breakfast, Lunch, Entrees, and Appetizers.
 
-
+## Modifying the content in the Card tiles
+This module provides a default view. You are able to modify everything about the view. For example, you can modify the sort to be alphabetical by title, you could add more fields to show in the card (i.e. an image or tag). You can also change style settings related to the BYU Card.
+## Creating more views like this?
+You are able to clone the view and modify it if you want something similar for another menu. Or if you wanted to create a page instead of a block, you would be able to as well.
 ## Links that AREN'T to actual content
 This view only works for content links.
 
