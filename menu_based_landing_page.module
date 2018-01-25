@@ -8,10 +8,10 @@
 /**
  * Implements hook_views_api().
  */
-function menu_landing_views_d7_views_api() {
+function menu_based_landing_page_views_api() {
   return array(
     'api' => 3,
-    'path' => drupal_get_path('module', 'menu_landing_views_d7'),
+    'path' => drupal_get_path('module', 'menu_based_landing_page'),
   );
 }
 

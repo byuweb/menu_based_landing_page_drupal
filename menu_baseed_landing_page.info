@@ -11,5 +11,5 @@ dependencies[] = views_card_d7
 dependencies[] = menu_node
 dependencies[] = menu_node_views
 
-#files[] = menu_landing_views_d7_handler_field_zip_code.inc
-#files[] = menu_landing_views_d7_views_default.inc
+#files[] = menu_based_landing_page_handler_field_zip_code.inc
+#files[] = menu_based_landing_page_views_default.inc

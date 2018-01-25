@@ -8,7 +8,7 @@
 /**
  * Implements hook_views_default_views().
  */
-function menu_landing_views_d7_views_default_views() {
+function menu_based_landing_page_views_default_views() {
     // Begin copy and paste of output from the Export tab of a view.
     $view = new view();
     $view->name = 'menu_based_landing_pages';
