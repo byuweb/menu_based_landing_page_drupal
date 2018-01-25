@@ -7,7 +7,7 @@ php = 5.2
 #dependencies[] = views
 # dependencies[] = views_bulk_operations (>=7.x-3.2)
 dependencies[] = views_menu_children_filter
-dependencies[] = views_card_d7
+dependencies[] = byu_views_card
 dependencies[] = menu_node
 dependencies[] = menu_node_views
 
