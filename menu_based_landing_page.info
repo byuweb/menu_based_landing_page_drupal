@@ -1,15 +1,10 @@
 name = Menu Landing Page views
 description = Creates Landing pages to easily allow adjusting menus to use landing pages instead of displaying dropdowns.
-package = BYU Custom
+package = BYU
 core = 7.x
 php = 5.2
 
-#dependencies[] = views
-# dependencies[] = views_bulk_operations (>=7.x-3.2)
 dependencies[] = views_menu_children_filter
 dependencies[] = byu_views_card
 dependencies[] = menu_node
 dependencies[] = menu_node_views
-
-#files[] = menu_based_landing_page_handler_field_zip_code.inc
-#files[] = menu_based_landing_page_views_default.inc
